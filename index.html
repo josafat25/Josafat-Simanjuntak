@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <!-- sumber illustrasi = https://undraw.co/illustrations -->
+  <title>Josafat Simanjuntak Project Submission</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="jumbotron">
+      <img src="assets/images/pesawat.png">
+      <p>Hello There!</p>
+      <h1>I AM JOSAFAT</h1>
+      <p>Geologist, Front-end, Back-end</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#">ACHIEVEMENT</a></li>
+        <li><a href="#calculator">KALKULATOR</a></li>
+        <li><a href="#about">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="content">
+      <article id="experience">
+        <div class="jobs_card" id="job">
+          <div class="headers">
+            <h2>Work Experience</h2>
+          </div>
+          <div class="jobs">
+            <div class="job">
+              <h3 class="kantor">Project Manager</h3>
+              <p>CV. GIS <span class="tahun-kerja">2019 - Now</span></p>
+              <ul class="list">
+                <li>Scheduling, Budgeting, Team Management</li>
+                <li>Iniative, and Interpersonal Skill</li>
+                <li>Reporting , and Communiacation</li>
+                <li>Evaluating</li>
+              </ul>
+              <img src="assets/images/pm.png" class="job-image" alt="foto project">
+              <p class="txt-contents">Monitor and responsible for coordination and completion of project on time and
+                within budget. Inform client about technical information such as mineplan and
+                production plan</p>
+            </div>
+            <div class="job">
+              <h3>Production Group Leader</h3>
+              <p>PT. Lobunta Kencana Raya <span class="tahun-kerja"> 2018 – 2019</span></p>
+              <ul class="list">
+                <li>Monitoring Production Plan</li>
+                <li>Supervising Coal Getting and Overburden Removal Activity</li>
+                <li>Problemsolving & Evaluating Production Accomplishment</li>
+                <li>Monitoring Company Rules Compliance</li>
+              </ul>
+              <img src="assets/images/gl.png" class="job-image">
+              <p class="txt-contents">Lead Production Foreman team on executing designed mine plan and controlling the
+                achievement of daily, weekly, monthly, and yearly coal production target. Comply to zero accident</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="education-wrapper" id="education">
+        <div class="container">
+          <div class="headers">
+            <h2>Education</h2>
+          </div>
+          <div class="schools">
+            <div class="school">
+              <div class="school-icon">
+                <img src="assets/images/sd.png">
+              </div>
+              <p>SDN 5/V Kuala Tungkal</p>
+            </div>
+            <div class="school">
+              <div class="school-icon">
+                <img src="assets/images/smp.png">
+              </div>
+              <p>SMPN 2 Kuala Tungkal</p>
+            </div>
+            <div class="school">
+              <div class="school-icon">
+                <img src="assets/images/sma.png">
+              </div>
+              <p>SMAS Titian Teras Jambi</p>
+            </div>
+            <div class="school">
+              <div class="school-icon">
+                <img src="assets/images/kuliah.png">
+              </div>
+              <div class="unpad">
+                <p>Universitas Padjajaran</p>
+                <p> Fakultas Teknik Geologi</p>
+                <p> GPA 3.29 of 4.0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="webcalculator" id="calculator">
+        <div class="headers">
+          <h2>Web Calculator</h2>
+        </div>
+        <div class="flex-container-column card">
+          <div class="display">
+            <h1 id="displayNumber">0</h1>
+          </div>
+          <div class="flex-container-row">
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button negative">+/-</div>
+          </div>
+          <div class="flex-container-row">
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button operator">-</div>
+          </div>
+          <div class="flex-container-row">
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button operator">+</div>
+          </div>
+          <div class="flex-container-row">
+            <div class="button clear">CE</div>
+            <div class="button">0</div>
+            <div class="button equals double">=</div>
+          </div>
+        </div>
+        <div class="history card">
+          <h2>Riwayat Perhitungan</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Angka Pertama</th>
+                <th>Operator</th>
+                <th>Angka Kedua</th>
+                <th>Hasil</th>
+              </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <aside>
+      <article class="profile" id="about">
+        <header>
+          <h2>Josafat Simanjuntak</h2>
+          <p>Who am I?</p>
+          <figure>
+            <img src="assets/images/profile.jpg" class="profile">
+          </figure>
+        </header>
+        <section>
+          <table>
+            <tr>
+              <th>Nama </th>
+              <td>Josafat Simanjuntak, S.T</td>
+            </tr>
+            <tr>
+              <th>Tempat Lahir</th>
+              <td>Kuala Tungkal</td>
+            </tr>
+            <tr>
+              <th>Tanggal Lahir</th>
+              <td>25 Mei 1993</td>
+            </tr>
+            <tr>
+              <th>Bahasa</th>
+              <td>HTML, CSS, JS, Python, Node.JS</td>
+            </tr>
+            <tr>
+              <th>Telepon</th>
+              <td>+62 82115861676</td>
+            </tr>
+          </table>
+        </section>
+      </article>
+    </aside>
+  </main>
+
+  <footer>
+    <img src="assets/images/logo_josafat.png">
+    <p>Josafat Simanjuntak, 2020</p>
+  </footer>
+</body>
+<script src="assets/storage.js"></script>
+<script src="assets/kalkulator.js"></script>
+
+</html>
